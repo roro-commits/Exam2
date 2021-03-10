@@ -30,13 +30,13 @@ public class EmployeeList {
 
         if(!iD.contains(uniqueID))
         {
-            iD.add(uniqueID);
-            employeeLIst.add(obj);
+            iD.remove(uniqueID);
+            employeeLIst.remove(obj);
 
         }
         else
         {
-            System.out.println("Duplicate Employee details found, no object added");
+            System.out.println(" Employee details Not found, no object Removed");
         }
 
 
@@ -44,7 +44,7 @@ public class EmployeeList {
 
     }
 
-
+// get size of array
    public  int getLIstSize() {
          int size;
         size = employeeLIst.size();
