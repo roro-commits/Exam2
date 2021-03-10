@@ -1,4 +1,9 @@
+//Rotimi Awoniran
+//  G003377153@gmit.ie
+// 10/03/2021
 
+
+// employee class stores employee name and ID
 
 public class Employee {
     private String employeeName;

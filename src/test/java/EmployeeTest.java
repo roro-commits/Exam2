@@ -1,8 +1,20 @@
+// Rotimi Awoniran
+//  G003377153@gmit.ie
+// 10/03/2021
+
+
+
+
+// employeeTest Test for both classes fucntions
+
+
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class EmployeeTest {
+
 
 
     @Test

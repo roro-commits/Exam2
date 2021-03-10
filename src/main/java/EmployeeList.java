@@ -1,3 +1,11 @@
+//Rotimi Awoniran
+//  G003377153@gmit.ie
+// 10/03/2021
+
+
+// employee Test class stores and remove employee name and ID in a ArraList
+
+
 import java.util.ArrayList;
 
 public class EmployeeList {
