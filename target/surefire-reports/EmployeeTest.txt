@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: EmployeeTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.051 s <<< FAILURE! - in EmployeeTest
+remove  Time elapsed: 0.015 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
+	at EmployeeTest.remove(EmployeeTest.java:49)
+
+name  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <John> but was: <12345>
+	at EmployeeTest.name(EmployeeTest.java:13)
+
